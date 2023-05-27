@@ -1,0 +1,47 @@
+.imageIcon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:8px;
+}
+
+.footercss{
+  background-color:#8F9779 ;
+}
+
+.newsletter{
+  display: flex;
+  align-items: center;
+}
+
+.copyRight{
+  display: flex;
+  justify-content: center;
+}
+
+.stayConnectedHeading{
+
+  margin-top: 6px;    
+  text-decoration: underline;
+}
+
+
+.mailingListDesc{
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.newsletter{
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+ .copyRight{
+  display:none;
+
+ }
+  
+  }
