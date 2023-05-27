@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<!--    <link rel="stylesheet" th:href="@{/css/commonStyle.css}"/>-->
+    <link rel="stylesheet" th:href="@{/css/footer.css}"/>
+    <title>Footer2</title>
+</head>
+<body>
+    <!-- Footer -->
+
+    <div th:fragment="footer" class="container-footer">
+        <div class="footer-link">
+            <button class="footer-link"><a th:href="@{index}">Home</a></button>
+            <button class="footer-link"><a th:href="@{aboutus}">About</a></button>
+            <button class="footer-link"><a th:href="@{products}">Product</a></button>
+            <button class="footer-link"><a th:href="@{index#reviews}">Review</a></button>
+            <button class="footer-link"><a th:href="@{merchant}">Login</a></button>
+        </div>
+    </div>
+
+    
+<footer th:fragment="footer" class="text-center text-white footercss container-fluid navBarfooter">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xxl-4 imageIcon mt-2 mb-4">
+        <div class="stayConnectedHeading mb-2">   
+            <h6>Stay Connected</h6>
+        </div>
+        <div>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1 mb-2" style="background-color: #3b5998;" href="https://www.facebook.com/" target=”_blank” role="button"
+              ><i class="fab fa-facebook-f" style="background-color: #3b5998;"></i></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1 mb-2" style="background-color: #ac2bac;" href="https://www.instagram.com/" target=”_blank” role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+    
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1 mb-2" style="background-color: #0082ca;" href="https://www.linkedin.com/" target=”_blank” role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+        </div>
+        </div>
+        <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xxl-4">
+        <div class="copyRight mt-5">
+            <p>© IKIGAI All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="col- 12 col-sm-4 col-md-4 col-lg-4 col-xxl-4 newsletter">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-12 col-sm-12 col-md-12">
+              <h6 class="pt-2">
+                <p>Subscribe Mailing List</p>
+
+              </h6>
+            </div>
+              <!-- Email input -->
+              <div class="form-outline form-white">
+                <input type="email" id="form5Example21" class="form-control" placeholder="Email Address" required/>
+              </div>
+            </div>
+        </form>
+      </div>
+  </div>
+</div>
+</div>
+      </footer>
+
+</body>
+</html>
