@@ -16,6 +16,7 @@ public class FileUploadUtil {
                                 MultipartFile multipartFile) throws IOException {
 
         String connectStr2 = "DefaultEndpointsProtocol=https;AccountName=prodimage;AccountKey=XDWGtC0i6v9irWEEFmJUjiFQ5fxRmYn/14leryW2TonCMavajnZkbO5X0RuIacAoW0DaNe65LmZf+ASt6mghPg==;EndpointSuffix=core.windows.net";
+
         BlobServiceClient blobServiceClient = new BlobServiceClientBuilder().connectionString(connectStr2).buildClient();
         String containerName = "prodimage";
 

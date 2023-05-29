@@ -38,7 +38,7 @@ public class ProductController {
 //            image.setProductImage(setURL);
 //        }
 
-        String connectStr2 = "DefaultEndpointsProtocol=https;AccountName=productimagespring;AccountKey=Ks6c/pXfzdU5+atu5N0nQIXzXLkJNwjyeA57C32FpTWrq0bU5KoB0KID5IB6UH3IrCa9yDpgfhgu+AStkpkNUA==;EndpointSuffix=core.windows.net";
+        String connectStr2 = "DefaultEndpointsProtocol=https;AccountName=prodimage;AccountKey=XDWGtC0i6v9irWEEFmJUjiFQ5fxRmYn/14leryW2TonCMavajnZkbO5X0RuIacAoW0DaNe65LmZf+ASt6mghPg==;EndpointSuffix=core.windows.net";
         //System.out.println("Connect String: " + connectStr2);
         BlobServiceClient blobServiceClient = new BlobServiceClientBuilder().connectionString(connectStr2).buildClient();
         String containerName = "prodimage";
