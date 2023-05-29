@@ -4,8 +4,8 @@
 //const addAPI= 'http://localhost:8080/product/add';
 //const displayAPI = 'http://localhost:8080/product/all';
 
-const addAPI = 'https://ikigai.mysql.database.azure.com/product/add';
-const displayAPI = 'https://ikigai.mysql.database.azure.com/product/all';
+const addAPI = 'https://ikigaifinalproject.azurewebsites.net/product/add';
+const displayAPI = 'https://ikigaifinalproject.azurewebsites.net/product/all';
 let productsController = [];
 
 //retrieve querystring from url products?category=**
