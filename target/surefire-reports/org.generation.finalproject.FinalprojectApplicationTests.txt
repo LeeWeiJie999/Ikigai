@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.generation.finalproject.FinalprojectApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.778 s - in org.generation.finalproject.FinalprojectApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.939 s - in org.generation.finalproject.FinalprojectApplicationTests
