@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ikigaifinalproject'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_78C2435A9AF74A8C8707BDA9F24732D2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B798DC1C1FFD4E7EBB0DB2E8F95FA2AC }}
           package: '*.jar'
